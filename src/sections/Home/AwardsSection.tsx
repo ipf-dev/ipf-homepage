@@ -15,6 +15,8 @@ import ic_awarded_edtech from '../../assets/images/Home/ic_awarded_edtech.png';
 import ic_awarded_edtech_2x from '../../assets/images/Home/ic_awarded_edtech@2x.png';
 import ic_awarded_aws from '../../assets/images/Home/ic_awarded_aws.png';
 import ic_awarded_aws_2x from '../../assets/images/Home/ic_awarded_aws@2x.png';
+import logo_iso from '../../assets/images/Home/logo_iso@4x.png';
+import logo_ias from '../../assets/images/Home/logo_ias@4x.png';
 
 const commonStyle = css`
   width: 15rem;
@@ -29,9 +31,19 @@ const commonStyle = css`
 
 const AwardImageContainer = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 0;
   margin-top: 6.8rem;
   margin-bottom: 10.8rem;
+
+  @media ${responsive.conditionForTablet} {
+    gap: 10rem;
+  }
+`;
+
+const AwardImageBox = styled.div`
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 
   @media ${responsive.conditionForTablet} {
@@ -92,35 +104,54 @@ const AWS = styled.a`
   }
 `;
 
-const awardKeys = ['AES', 'BETT2020', 'BETT2021', 'ESU', 'EdTech', 'AWS'];
-const awardLinks = {
-  AES: 'https://www.elearningawards.jp/award-winner#platinum-1',
-  BETT2020: 'https://bettawards.com/shortlist2020/',
-  BETT2021: 'https://bettawards.com/2021-shortlist/',
-  ESU: 'https://www.esu.org/',
-  EdTech:
-    'https://edtech-startups-apac.educationtechnologyinsights.com/vendor/iportfolio-inc-transforming-the-way-people-learn-and-teach-english-cid-321-mid-50.html',
-  AWS: 'https://aws.amazon.com/ko/education/edstart/',
-};
+const ISO = styled.div`
+  ${commonStyle};
+
+  background-image: url(${logo_iso});
+  @media ${high_resolution} {
+    background-image: url(${logo_iso});
+  }
+`;
+
+const IAS = styled.div`
+  ${commonStyle};
+
+  background-image: url(${logo_ias});
+  @media ${high_resolution} {
+    background-image: url(${logo_ias});
+  }
+`;
 
 export default function AwardsSection() {
   return (
     <AwardImageContainer>
-      <AES
-        href="https://www.elearningawards.jp/award-winner#platinum-1"
-        target="_blank"
-      />
-      <BETT2020 href="https://bettawards.com/shortlist2020/" target="_blank" />
-      <BETT2021 href="https://bettawards.com/2021-shortlist/" target="_blank" />
-      <ESU href="https://www.esu.org/" target="_blank" />
-      <EdTech
-        href="https://edtech-startups-apac.educationtechnologyinsights.com/vendor/iportfolio-inc-transforming-the-way-people-learn-and-teach-english-cid-321-mid-50.html"
-        target="_blank"
-      />
-      <AWS
-        href="https://aws.amazon.com/ko/education/edstart/"
-        target="_blank"
-      />
+      <AwardImageBox>
+        <AES
+          href="https://www.elearningawards.jp/award-winner#platinum-1"
+          target="_blank"
+        />
+        <BETT2020
+          href="https://bettawards.com/shortlist2020/"
+          target="_blank"
+        />
+        <BETT2021
+          href="https://bettawards.com/2021-shortlist/"
+          target="_blank"
+        />
+        <ESU href="https://www.esu.org/" target="_blank" />
+        <EdTech
+          href="https://edtech-startups-apac.educationtechnologyinsights.com/vendor/iportfolio-inc-transforming-the-way-people-learn-and-teach-english-cid-321-mid-50.html"
+          target="_blank"
+        />
+        <AWS
+          href="https://aws.amazon.com/ko/education/edstart/"
+          target="_blank"
+        />
+      </AwardImageBox>
+      <AwardImageBox>
+        <ISO />
+        <IAS />
+      </AwardImageBox>
     </AwardImageContainer>
   );
 }
