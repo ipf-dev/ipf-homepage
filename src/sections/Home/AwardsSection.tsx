@@ -33,11 +33,11 @@ const AwardImageContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0;
-  margin-top: 6.8rem;
-  margin-bottom: 10.8rem;
+  margin-top: 8rem;
+  margin-bottom: 12rem;
 
   @media ${responsive.conditionForTablet} {
-    gap: 10rem;
+    gap: 8rem;
   }
 `;
 
