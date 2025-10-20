@@ -135,7 +135,7 @@ export default function Footer({ ...styleProps }: FooterProps) {
           <License>© iPortfolio Inc. All rights reserved.</License>
         </div>
         <a
-          href="엑소스피어"
+          href="https://cdn.exolabs.co/secure-badge/secure-badge.html?e=b1c0e2a60e0dd4a6d2ebf8a47a9e251a007cb9781191c59956aa562b8d6fc011"
           onClick={(e) => {
             e.preventDefault();
             window.open(e.currentTarget.href, 'popup', 'width=500, height=500');
