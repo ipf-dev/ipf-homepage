@@ -1540,10 +1540,10 @@
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
 
-"@ipf-dev/eslint-config-iportfolio@^0.2.5":
-  version "1.0.6"
-  resolved "https://npm.pkg.github.com/download/@ipf-dev/eslint-config-iportfolio/1.0.6/f9cd89ef5058a88db861e1a6912129b1215d95e2#f9cd89ef5058a88db861e1a6912129b1215d95e2"
-  integrity sha512-PGgiZyRwXKpE23R6Qm7Xa+17QRkLEii5qJJByHTEXZtPtz8h7GDaj915ZStCPyCJHVo9qWez7DTm4ttq93Bzug==
+"@ipf-dev/eslint-config-iportfolio@^0.7.0":
+  version "0.7.0"
+  resolved "https://npm.pkg.github.com/download/@ipf-dev/eslint-config-iportfolio/0.7.0/cf1fba25d7a8b8263a79f727cfed4b7c4acf68b3#cf1fba25d7a8b8263a79f727cfed4b7c4acf68b3"
+  integrity sha512-hI4FObEU0G+wIh/iMP3IsyCDi8pR4Uo25cv53Lt1INIELDAb50fBUvBs2fP4SG4OqeJr2uI2LsfqLHckKBeoyw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.7.0"
     "@typescript-eslint/parser" "^4.7.0"
