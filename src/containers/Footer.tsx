@@ -34,12 +34,19 @@ const ContainerStyled = styled(Container)`
 `;
 
 const LicenseContainer = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.6rem;
   ${Typography('body', 1.4)};
 
   height: fit-content;
   margin-bottom: 3.2rem;
 
   @media ${responsive.conditionForTablet} {
+    width: auto;
+    flex-direction: column;
     margin-bottom: 0;
   }
 `;
@@ -123,8 +130,25 @@ export default function Footer({ ...styleProps }: FooterProps) {
   return (
     <ContainerStyled id="footer" {...styleProps}>
       <LicenseContainer>
-        <Logo />
-        <License>© iPortfolio Inc. All rights reserved.</License>
+        <div>
+          <Logo />
+          <License>© iPortfolio Inc. All rights reserved.</License>
+        </div>
+        <a
+          href="https://cdn.exolabs.co/secure-badge/secure-badge.html?e=b1c0e2a60e0dd4a6d2ebf8a47a9e251a007cb9781191c59956aa562b8d6fc011"
+          onClick={(e) => {
+            e.preventDefault();
+            window.open(e.currentTarget.href, 'popup', 'width=500, height=500');
+          }}
+        >
+          <img
+            src="https://cdn.exolabs.co/secure-badge/secure-badge.svg"
+            alt="엑소스피어"
+            loading="lazy"
+            width="44"
+            height="48"
+          />
+        </a>
       </LicenseContainer>
       <LinkContainer>
         <FacebookLink href="https://www.facebook.com/ipofo" target="_blank" />
