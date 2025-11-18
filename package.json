@@ -4,7 +4,8 @@
   "private": true,
   "homepage": "https://github.com/ipf-dev/ipf-homepage-new",
   "dependencies": {
-    "@ipf-dev/web-spindle-design-system": "2.0.17",
+    "@ipf-dev/sds-core": "^1.1.5",
+    "@ipf-dev/sds-icon": "^1.2.9",
     "@types/styled-components": "^5.1.9",
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^3.4.2",

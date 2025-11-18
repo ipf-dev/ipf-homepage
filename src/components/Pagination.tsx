@@ -1,5 +1,5 @@
 import React, { ReactNode, useEffect, useState } from 'react';
-import { Icon } from '@ipf-dev/web-spindle-design-system';
+import { Icon } from '@ipf-dev/sds-icon';
 import {
   Container,
   IconButton,

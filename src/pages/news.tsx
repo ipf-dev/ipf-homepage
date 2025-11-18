@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import {
   SpindleThemeProvider,
   // Pagination,
-} from '@ipf-dev/web-spindle-design-system';
+} from '@ipf-dev/sds-core';
 import Skeleton from 'react-loading-skeleton';
 import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
@@ -52,7 +52,7 @@ const PaginationWrapper = styled.div`
 `;
 
 function displayAllNewsData(newsData: NewsDataType[], pageIndex: number) {
-  let pageData = newsData.slice(pageIndex * 8, pageIndex * 8 + 8);
+  const pageData = newsData.slice(pageIndex * 8, pageIndex * 8 + 8);
   return pageData.map((newsItem: NewsDataType, index: number) => {
     return (
       <NewsItemContainer
@@ -69,7 +69,7 @@ function displayAllNewsData(newsData: NewsDataType[], pageIndex: number) {
 }
 
 function displayNewsItemSkeleton() {
-  let skeletonNewsItems = [];
+  const skeletonNewsItems = [];
   for (let i = 0; i < 7; i++) {
     skeletonNewsItems.push(
       <NewsItemContainerSkeleton key={i}>

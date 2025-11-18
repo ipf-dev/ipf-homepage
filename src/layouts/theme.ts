@@ -1,4 +1,4 @@
-import { buildSpindleTheme } from '@ipf-dev/web-spindle-design-system';
+import { buildSpindleTheme } from '@ipf-dev/sds-core';
 
 export default buildSpindleTheme({
   colorTokens: {
