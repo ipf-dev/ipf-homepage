@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-404-tsx-8706d267f2098d3ce5c7.js","mappings":"4KAEe,SAASA,IACtB,OAAO","sources":["webpack://ipf-homepage/./src/pages/404.tsx"],"sourcesContent":["import React from 'react';\n\nexport default function Reload() {\n  return <div />;\n}\n"],"names":["Reload"],"sourceRoot":""}

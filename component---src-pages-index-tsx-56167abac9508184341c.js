@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkipf_homepage=self.webpackChunkipf_homepage||[]).push([[691],{8308:function(e,u,n){n.r(u);var t=n(7294),a=n(6555);u.default=function(){return t.createElement(a.default,null)}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-56167abac9508184341c.js.map
