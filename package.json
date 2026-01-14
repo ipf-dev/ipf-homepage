@@ -1,8 +1,8 @@
 {
-  "name": "ipf-homepage-new",
+  "name": "ipf-homepage",
   "version": "2.1.0",
   "private": true,
-  "homepage": "https://github.com/ipf-dev/ipf-homepage-new",
+  "homepage": "https://github.com/ipf-dev/ipf-homepage",
   "dependencies": {
     "@ipf-dev/sds-core": "^1.1.5",
     "@ipf-dev/sds-icon": "^1.2.9",
@@ -35,7 +35,7 @@
   "scripts": {
     "start": "gatsby develop -p 7001 -o",
     "build": "gatsby build",
-    "deploy": "gatsby clean && gatsby build && gh-pages -d public -b master -r https://github.com/ipf-dev/ipf-homepage-new.git",
+    "deploy": "gatsby clean && gatsby build && gh-pages -d public -b master -r https://github.com/ipf-dev/ipf-homepage.git",
     "clean": "gatsby clean",
     "lint": "eslint"
   },

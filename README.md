@@ -23,7 +23,7 @@ Builds the app for production to the `public` folder.
 
 ### `yarn deploy`
 
-Builds the app and deploys to master branch in ipf-dev/ipf-homepage-new repository.
+Builds the app and deploys to master branch in ipf-dev/ipf-homepage repository.
 
 ### `yarn clean`
 
