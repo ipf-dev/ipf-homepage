@@ -54,8 +54,9 @@ src
 │   └──en
 ├── pages               # import sections to create gatsby pages (folder name == path name)
 └── sections            # imports components and containers to create sections of each page
-static              # image used for open graph protocol
-└──og.png
+static
+└──og.png               # image used for open graph protocol
+└──logo.png
 ```
 
 ## Trouble Shooting
