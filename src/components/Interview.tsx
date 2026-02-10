@@ -19,69 +19,57 @@ import img_arrow_left from '../assets/images/Career/img_arrow_left.png';
 import img_arrow_left_2x from '../assets/images/Career/img_arrow_left@2x.png';
 import img_arrow_right from '../assets/images/Career/img_arrow_right.png';
 import img_arrow_right_2x from '../assets/images/Career/img_arrow_right@2x.png';
-import img_interviewee_okwon from '../assets/images/Career/img_interviewee_okwon.png';
-import img_interviewee_okwon_2x from '../assets/images/Career/img_interviewee_okwon@2x.png';
-import img_interviewee_hcho from '../assets/images/Career/img_interviewee_hcho.png';
-import img_interviewee_hcho_2x from '../assets/images/Career/img_interviewee_hcho@2x.png';
-import img_interviewee_mkim from '../assets/images/Career/img_interviewee_mkim.png';
-import img_interviewee_mkim_2x from '../assets/images/Career/img_interviewee_mkim@2x.png';
-import img_interviewee_hjpark from '../assets/images/Career/img_interviewee_hjpark.png';
-import img_interviewee_hjpark_2x from '../assets/images/Career/img_interviewee_hjpark@2x.png';
-import img_interviewee_dwjung from '../assets/images/Career/img_interviewee_dwjung.png';
-import img_interviewee_dwjung_2x from '../assets/images/Career/img_interviewee_dwjung@2x.png';
-import img_interviewee_sychoi from '../assets/images/Career/img_interviewee_sychoi.png';
-import img_interviewee_sychoi_2x from '../assets/images/Career/img_interviewee_sychoi@2x.png';
-import img_interviewee_blee from '../assets/images/Career/img_interviewee_blee.png';
-import img_interviewee_blee_2x from '../assets/images/Career/img_interviewee_blee@2x.png';
-import img_interviewee_dssong from '../assets/images/Career/img_interviewee_dssong.png';
-import img_interviewee_dssong_2x from '../assets/images/Career/img_interviewee_dssong@2x.png';
-import img_interviewee_jelee from '../assets/images/Career/img_interviewee_jelee.png';
-import img_interviewee_jelee_2x from '../assets/images/Career/img_interviewee_jelee@2x.png';
+import img_interviewee_jrlee from '../assets/images/Career/interviewee/img_jrlee.png';
+import img_interviewee_jrlee_2x from '../assets/images/Career/interviewee/img_jrlee@2x.png';
+import img_interviewee_sseo from '../assets/images/Career/interviewee/img_sseo.png';
+import img_interviewee_sseo_2x from '../assets/images/Career/interviewee/img_sseo@2x.png';
+import img_interviewee_bson from '../assets/images/Career/interviewee/img_bson.png';
+import img_interviewee_bson_2x from '../assets/images/Career/interviewee/img_bson@2x.png';
+import img_interviewee_sychoi from '../assets/images/Career/interviewee/img_sychoi.png';
+import img_interviewee_sychoi_2x from '../assets/images/Career/interviewee/img_sychoi@2x.png';
+import img_interviewee_blee from '../assets/images/Career/interviewee/img_blee.png';
+import img_interviewee_blee_2x from '../assets/images/Career/interviewee/img_blee@2x.png';
+import img_interviewee_hongjinkim from '../assets/images/Career/interviewee/img_hongjinkim.png';
+import img_interviewee_hongjinkim_2x from '../assets/images/Career/interviewee/img_hongjinkim@2x.png';
+import img_interviewee_hhong from '../assets/images/Career/interviewee/img_hhong.png';
+import img_interviewee_hhong_2x from '../assets/images/Career/interviewee/img_hhong@2x.png';
+import img_interviewee_isjang from '../assets/images/Career/interviewee/img_isjang.png';
+import img_interviewee_isjang_2x from '../assets/images/Career/interviewee/img_isjang@2x.png';
+import img_interviewee_sshin from '../assets/images/Career/interviewee/img_sshin.png';
+import img_interviewee_sshin_2x from '../assets/images/Career/interviewee/img_sshin@2x.png';
+import img_interviewee_bspark from '../assets/images/Career/interviewee/img_bspark.png';
+import img_interviewee_bspark_2x from '../assets/images/Career/interviewee/img_bspark@2x.png';
+import img_interviewee_dssong from '../assets/images/Career/interviewee/img_dssong.png';
+import img_interviewee_dssong_2x from '../assets/images/Career/interviewee/img_dssong@2x.png';
+import img_interviewee_jelee from '../assets/images/Career/interviewee/img_jelee.png';
+import img_interviewee_jelee_2x from '../assets/images/Career/interviewee/img_jelee@2x.png';
 
 const InterviewData = [
   {
-    profile: 'okwon',
-    title: <Translation>{(t) => t('INTVW-OKWON-TITLE')}</Translation>,
-    quote: <Translation>{(t) => t('INTVW-OKWON-QUOTE')}</Translation>,
+    profile: 'jrlee',
+    title: <Translation>{(t) => t('INTVW-JRLEE-TITLE')}</Translation>,
+    quote: <Translation>{(t) => t('INTVW-JRLEE-QUOTE')}</Translation>,
     imgSrc: {
-      x1: img_interviewee_okwon,
-      x2: img_interviewee_okwon_2x,
+      x1: img_interviewee_jrlee,
+      x2: img_interviewee_jrlee_2x,
     },
   },
   {
-    profile: 'hcho',
-    title: <Translation>{(t) => t('INTVW-HCHO-TITLE')}</Translation>,
-    quote: <Translation>{(t) => t('INTVW-HCHO-QUOTE')}</Translation>,
+    profile: 'sseo',
+    title: <Translation>{(t) => t('INTVW-SSEO-TITLE')}</Translation>,
+    quote: <Translation>{(t) => t('INTVW-SSEO-QUOTE')}</Translation>,
     imgSrc: {
-      x1: img_interviewee_hcho,
-      x2: img_interviewee_hcho_2x,
+      x1: img_interviewee_sseo,
+      x2: img_interviewee_sseo_2x,
     },
   },
   {
-    profile: 'mkim',
-    title: <Translation>{(t) => t('INTVW-MKIM-TITLE')}</Translation>,
-    quote: <Translation>{(t) => t('INTVW-MKIM-QUOTE')}</Translation>,
+    profile: 'bson',
+    title: <Translation>{(t) => t('INTVW-BSON-TITLE')}</Translation>,
+    quote: <Translation>{(t) => t('INTVW-BSON-QUOTE')}</Translation>,
     imgSrc: {
-      x1: img_interviewee_mkim,
-      x2: img_interviewee_mkim_2x,
-    },
-  },
-  {
-    profile: 'hjpark',
-    title: <Translation>{(t) => t('INTVW-HJPARK-TITLE')}</Translation>,
-    quote: <Translation>{(t) => t('INTVW-HJPARK-QUOTE')}</Translation>,
-    imgSrc: {
-      x1: img_interviewee_hjpark,
-      x2: img_interviewee_hjpark_2x,
-    },
-  },
-  {
-    profile: 'dwjung',
-    title: <Translation>{(t) => t('INTVW-DWJUNG-TITLE')}</Translation>,
-    quote: <Translation>{(t) => t('INTVW-DWJUNG-QUOTE')}</Translation>,
-    imgSrc: {
-      x1: img_interviewee_dwjung,
-      x2: img_interviewee_dwjung_2x,
+      x1: img_interviewee_bson,
+      x2: img_interviewee_bson_2x,
     },
   },
   {
@@ -100,6 +88,51 @@ const InterviewData = [
     imgSrc: {
       x1: img_interviewee_blee,
       x2: img_interviewee_blee_2x,
+    },
+  },
+  {
+    profile: 'hongjinkim',
+    title: <Translation>{(t) => t('INTVW-HONGJINKIM-TITLE')}</Translation>,
+    quote: <Translation>{(t) => t('INTVW-HONGJINKIM-QUOTE')}</Translation>,
+    imgSrc: {
+      x1: img_interviewee_hongjinkim,
+      x2: img_interviewee_hongjinkim_2x,
+    },
+  },
+  {
+    profile: 'hhong',
+    title: <Translation>{(t) => t('INTVW-HHONG-TITLE')}</Translation>,
+    quote: <Translation>{(t) => t('INTVW-HHONG-QUOTE')}</Translation>,
+    imgSrc: {
+      x1: img_interviewee_hhong,
+      x2: img_interviewee_hhong_2x,
+    },
+  },
+  {
+    profile: 'isjang',
+    title: <Translation>{(t) => t('INTVW-ISJANG-TITLE')}</Translation>,
+    quote: <Translation>{(t) => t('INTVW-ISJANG-QUOTE')}</Translation>,
+    imgSrc: {
+      x1: img_interviewee_isjang,
+      x2: img_interviewee_isjang_2x,
+    },
+  },
+  {
+    profile: 'sshin',
+    title: <Translation>{(t) => t('INTVW-SSHIN-TITLE')}</Translation>,
+    quote: <Translation>{(t) => t('INTVW-SSHIN-QUOTE')}</Translation>,
+    imgSrc: {
+      x1: img_interviewee_sshin,
+      x2: img_interviewee_sshin_2x,
+    },
+  },
+  {
+    profile: 'bspark',
+    title: <Translation>{(t) => t('INTVW-BSPARK-TITLE')}</Translation>,
+    quote: <Translation>{(t) => t('INTVW-BSPARK-QUOTE')}</Translation>,
+    imgSrc: {
+      x1: img_interviewee_bspark,
+      x2: img_interviewee_bspark_2x,
     },
   },
   {
@@ -127,12 +160,13 @@ const CarouselProviderStyled = styled(CarouselProvider)`
   padding: 5.6rem 0;
 
   @media ${responsive.conditionForTablet} {
-    padding: 5.6rem calc((100% - 70.4rem) / 2);
+    /* padding: 5.6rem calc((100% - 70.4rem) / 2); */
+    padding: 3.5rem calc((100% - 70.4rem) / 2);
     padding-bottom: 0;
   }
 
   @media ${responsive.conditionForDesktop} {
-    padding: 6.8rem calc((100% - 96rem) / 2);
+    padding: 4rem calc((100% - 96rem) / 2);
     padding-bottom: 0;
   }
 `;
@@ -151,10 +185,14 @@ const Profile = styled.span<{ imgSrc: { x1: string; x2: string } }>`
 
 const SliderStyled = styled(Slider)`
   width: 100%;
-  height: 31rem;
+  height: 33.4rem;
+
+  @media ${responsive.conditionForTablet} {
+    height: 28.6rem;
+  }
 
   @media ${responsive.conditionForDesktop} {
-    height: 22.2rem;
+    height: 24.5rem;
   }
 `;
 
