@@ -278,6 +278,48 @@ export default function HistorySection() {
             },
           ]}
         />
+        <TimeLine
+          year="2024"
+          description={[
+            {
+              month: t('MONTH-1'),
+              items: [t('HPG-107')],
+            },
+            {
+              month: t('MONTH-9'),
+              items: [t('HPG-108'), t('HPG-109')],
+            },
+            {
+              month: t('MONTH-11'),
+              items: [t('HPG-110')],
+            },
+            {
+              month: t('MONTH-12'),
+              items: [t('HPG-111')],
+            },
+          ]}
+        />
+        <TimeLine
+          year="2025"
+          description={[
+            {
+              month: t('MONTH-4'),
+              items: [t('HPG-112')],
+            },
+            {
+              month: t('MONTH-5'),
+              items: [t('HPG-113')],
+            },
+            {
+              month: t('MONTH-9'),
+              items: [t('HPG-114')],
+            },
+            {
+              month: t('MONTH-11'),
+              items: [t('HPG-115')],
+            },
+          ]}
+        />
         <TimeLine hidden year="" description={[{ month: '', items: [''] }]} />
       </HistoryDescriptionContainer>
     </>

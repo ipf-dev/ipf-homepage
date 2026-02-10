@@ -18,7 +18,7 @@ const EmploymentStepData = {
   first: {
     title: <Translation>{(t) => t('HPG-69')}</Translation>,
     description: <Translation>{(t) => t('HPG-70')}</Translation>,
-    subText: <Translation>{(t) => t('HPG-107')}</Translation>,
+    subText: <Translation>{(t) => t('HPG-70-1')}</Translation>,
   },
   second: {
     title: <Translation>{(t) => t('HPG-71')}</Translation>,
