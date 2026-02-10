@@ -5804,7 +5804,7 @@ gatsby-plugin-cname@^1.0.0:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-cname/-/gatsby-plugin-cname-1.0.0.tgz#5752d006c476a3c7897fca5c307901df5501747a"
   integrity sha512-U0yRgn4cm1zBi+qC5a827acPFnUqKSowoCvAxT3MDmMJVLSWB4vmSyM7m6ThVz35obO4nKr4iP4vZhvA7gEVsA==
 
-gatsby-plugin-google-gtag@5.16.0:
+gatsby-plugin-google-gtag@^5.16.0:
   version "5.16.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-5.16.0.tgz#8fe09a5f33f95f4a44daa4153b97a17556f4009a"
   integrity sha512-UAUIiPowIDByfyOmhVH4YstA3yPlw4/1JWr3aLs0UWi1O3JE3qubGFSQ3glqtgxm5Fi0fvTkbiuHrRBlT6WD7A==
@@ -5852,7 +5852,7 @@ gatsby-plugin-scroll-reveal@0.0.7:
     intersection-observer "^0.7.0"
     sal.js "^0.6.2"
 
-gatsby-plugin-sitemap@6.16.0:
+gatsby-plugin-sitemap@^6.16.0:
   version "6.16.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-6.16.0.tgz#b7c7edc5b47d3660ef20c0c2728a1fb99efb45f9"
   integrity sha512-qZhPkYdjgddHxqOdq7vpMVL7PjUZGFITLsQC9Y8l1wsFQ+HXAR8ngpM0BeKwTnhGgGww4RD3b4wZMVjxagfkMw==
@@ -5862,7 +5862,7 @@ gatsby-plugin-sitemap@6.16.0:
     minimatch "^3.1.2"
     sitemap "^7.1.1"
 
-gatsby-plugin-styled-components@6.16.0:
+gatsby-plugin-styled-components@^6.16.0:
   version "6.16.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-6.16.0.tgz#9f87307b5a5ffa3aa76631854b910df9b273d3b6"
   integrity sha512-9OSmKbr4rlcklVejqG+UVsmvsJJAi8tD1x/8hVN+b4zrCzKmFJWw5MiHDI4rDsxm26T6GxN4SSqOWH/UCro1bg==
@@ -5922,7 +5922,7 @@ gatsby-sharp@^1.16.0:
   dependencies:
     sharp "^0.32.6"
 
-gatsby-source-filesystem@5.16.0:
+gatsby-source-filesystem@^5.16.0:
   version "5.16.0"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-5.16.0.tgz#5b476ca3201a2afbccd0bafb3c4597e5140de06c"
   integrity sha512-z64lyDaonLpD1fHV8s9MYVBz2z6Mv3jwEntwt/KA4QKPJsH/qD1eKZ0OBSilGqEadzLw7EcgTGkTXBAz1gd8fg==
@@ -5947,7 +5947,7 @@ gatsby-worker@^2.16.0:
     fs-extra "^11.2.0"
     signal-exit "^3.0.7"
 
-gatsby@5.16.0:
+gatsby@^5.16.0:
   version "5.16.0"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-5.16.0.tgz#14293cabb81e400f5fa576d20a7afe297573fc37"
   integrity sha512-xVzKmYvi2UFvwmHvkW0mBW6wirMtqoenTw9aLFVWDTSvyJycka70yNk4dnaaKSJ7TwpVStYZ/Z2J5Pc1ROgJqQ==
