@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkipf_homepage=self.webpackChunkipf_homepage||[]).push([[453],{731:function(e,n,u){u.r(n),u.d(n,{default:function(){return f}});var t=u(6540);function f(){return t.createElement("div",null)}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-637b4c768d453dd98b2d.js.map
