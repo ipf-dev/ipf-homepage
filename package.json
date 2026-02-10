@@ -8,7 +8,7 @@
     "@ipf-dev/sds-icon": "^1.2.9",
     "@types/styled-components": "^5.1.9",
     "babel-plugin-styled-components": "^1.11.1",
-    "gatsby": "^3.4.2",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-breakpoints": "^1.3.3",
     "gatsby-plugin-cname": "^1.0.0",
     "gatsby-plugin-google-gtag": "^3.4.0",
