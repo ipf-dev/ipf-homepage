@@ -2,6 +2,20 @@
 
 회사 홈페이지 소스 코드 저장소입니다.
 
+## Clone (SSH 권장)
+
+Git 인증 이슈(예: deploy 시 HTTP 400)를 방지하기 위해, 이 저장소는 HTTPS가 아닌 SSH URL로 클론하는 것을 권장합니다.
+
+```
+git clone git@github.com:ipf-dev/ipf-homepage.git
+```
+
+이미 HTTPS로 클론했다면 아래 명령으로 SSH 원격으로 변경할 수 있습니다.
+
+```
+git remote set-url origin git@github.com:ipf-dev/ipf-homepage.git
+```
+
 ## Branches
 
 development - Contains the source code.\
