@@ -13,7 +13,7 @@ import Button from '../../components/Button';
 import Column from '../../components/Column';
 import Description from '../../components/Description';
 
-import img_world_map_inline from '../../assets/images/Home/img_world_map.inline.svg';
+import { ReactComponent as ImgWorldMapInline } from '../../assets/images/Home/img_world_map.inline.svg';
 
 const AboutContainer = styled(Container)`
   justify-content: space-between;
@@ -29,7 +29,7 @@ const ColumnStyled = styled(Column)`
   }
 `;
 
-const WorldMap = styled(img_world_map_inline)`
+const WorldMap = styled(ImgWorldMapInline)`
   width: 100%;
   height: 18.8rem;
   margin-top: 6.4rem;
